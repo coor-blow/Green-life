@@ -1,0 +1,237 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*header*/
+
+header {
+  background-color: rgb(80, 158, 80);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+.G-logo {
+  text-decoration: none;
+  color: rgba(12, 48, 12, 0.918);
+  font-weight: bold;
+  font-size: 30px;
+}
+.G-logo:hover {
+  color: rgb(101, 135, 97);
+}
+.navigation a {
+  color: rgb(13, 27, 13);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 50px;
+}
+.navigation a:hover {
+  color: rgb(57, 117, 17);
+}
+/*first siction - home */
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 50px;
+  background-image: url("../images/frog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main h2 {
+  color: rgb(20, 35, 5);
+  font-size: 40px;
+}
+.main div h3 {
+  color: rgb(20, 35, 5);
+  font-size: 20px;
+
+  margin-top: 30px;
+}
+
+.join {
+  margin: 30px 10px;
+  color: rgb(11, 14, 12);
+  text-decoration: none;
+  font-size: 30px;
+  background-color: rgb(57, 103, 65);
+  display: inline-block;
+  padding: 10px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  transition: 0.8s ease;
+}
+.join:hover {
+  background-color: rgb(43, 132, 43);
+  transform: scale(1.1);
+}
+/*second section - about us*/
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  background-color: rgb(102, 174, 102);
+}
+.h2-about {
+  align-items: center;
+  font-size: 40px;
+  margin: 40px 40px;
+  color: rgb(20, 35, 5);
+}
+
+p {
+  font-size: 20px;
+
+  padding: 30px 20px;
+  color: rgb(20, 35, 5);
+}
+.achive {
+  font-size: 40px;
+  color: rgb(20, 35, 5);
+}
+.list {
+  font-size: 20px;
+
+  padding: 50px 60px;
+  color: rgb(20, 35, 5);
+}
+/*third section - events*/
+#d-event {
+  min-height: 100vh;
+  background-image: url("../images/green-life.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(102, 174, 102);
+}
+
+.down-event h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+
+  margin: 0;
+  padding: 40px 50px;
+  color: rgb(7, 10, 3);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rgb(57, 103, 65);
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.icon {
+  font-size: 8em;
+  text-align: center;
+  color: rgb(20, 35, 5);
+}
+.info h3 {
+  color: rgb(20, 35, 5);
+  margin: 10px;
+  font-size: 20px;
+}
+
+.info a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(20, 35, 5);
+  font-weight: bold;
+}
+.info a:hover {
+  color: rgb(77, 148, 7);
+}
+/*fourth section - contacts*/
+.contact-title {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+
+  margin: 0;
+  padding: 40px 50px;
+  color: rgb(7, 10, 3);
+}
+.cards-contact {
+  background-color: rgb(102, 174, 102);
+  padding: 20px;
+}
+.contact-card {
+  background-color: rgb(57, 103, 65);
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.contact-card:hover {
+  transform: scale(1.1);
+}
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contact-icon {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(20, 35, 5);
+}
+.contact-info h3 {
+  color: rgb(20, 35, 5);
+
+  font-size: 15px;
+}
+
+/*last section - footer*/
+.footer {
+  background-color: rgb(21, 42, 21);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  color: #a1ed51;
+}
+.footer .social-icons a {
+  color: rgb(176, 250, 176);
+  font-size: 40px;
+  padding: 0 12px 0 0;
+}
+.footer .social-icons a:hover {
+  color: #50514e;
+}
+
+.contact-info h3{
+  font-size: 25px;
+  align-items: center;
+  
+}
